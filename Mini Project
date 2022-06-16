@@ -43,7 +43,7 @@ int main() {
     break;
     case 2:
     printf("Displaying Percentage\n");
-    printf("Enter Roll No.  of Student:",);
+    printf("Enter Roll No.  of Student:" );
     scanf("%d",&i);
     num=s[i-1].marks;
     float per=(num/500)*100;
